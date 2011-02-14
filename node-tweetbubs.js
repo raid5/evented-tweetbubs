@@ -8,11 +8,11 @@ var http = require('http'),
 server = http.createServer(function(req, res) {
  var path = url.parse(req.url).pathname;
  switch (path){
-   case '/tweetbubs.css':
-   case '/socket.io.js':
-   case '/tweetbubs.js':
-   case '/socket.io-client.js':
-   case '/tweetbubs.html':
+   case '/client/tweetbubs.css':
+   case '/client/socket.io.js':
+   case '/client/tweetbubs.js':
+   case '/client/socket.io-client.js':
+   case '/client/tweetbubs.html':
      fs.readFile(__dirname + path, function(err, data){
        if (err) return send404(res);
        
