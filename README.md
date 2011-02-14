@@ -5,6 +5,11 @@ To better familiarize myself with evented code, I wrote up this simple project t
 
 For the server, you can either run Node.js or Ruby EventMachine. The Node.js setup makes use of [Socket.IO-node](https://github.com/LearnBoost/Socket.IO-node) and [Socket.IO](https://github.com/LearnBoost/Socket.IO) to add support for browsers that don't support the Websockets protocol (such as Firefox 3.x). The EventMachine setup only works with browsers that support Websockets. You can check if your browser supports Websockets at [http://websocket.org](http://websocket.org/echo.html).
 
+Demo
+----
+
+You can checkout the [demo](http://50.18.54.241:8080/client/tweetbubs.html) I have currently running on Amazon EC2.
+
 Running via Node.js
 -------------------
 
