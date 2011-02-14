@@ -1,0 +1,105 @@
+body {
+  background-color: #363636;
+  color: #a8a7a7;
+  font-size: 18pt;
+  overflow: hidden;
+}
+
+#wrap {
+  width: 820px;
+  height: 100%;
+  margin: auto;
+}
+
+#filter {
+  float: left;
+  width: 180px;
+  margin-top: 20px;
+  padding: 0px 10px 10px 10px;
+  font-size: 16pt;
+}
+
+#filter a {
+  display: block;
+  width: 160px;
+  margin-bottom: 5px;
+  padding: 5px 5px 5px 10px;
+  outline: none;
+  
+  -moz-box-shadow: inset 0 0 15px 1px #000;
+  -webkit-box-shadow: inset 0 0 15px 1px #000;
+  box-shadow: inset 0 0 15px 1px #000;
+}
+
+#tweets {
+  float: left;
+  width: 600px;
+/*  height: 100%;
+  margin: auto;*/
+}
+
+#tweets p {
+  margin-top: 20px;
+  padding: 10px 16px;
+  overflow: hidden;
+
+  -webkit-box-shadow: inset 0 0 15px 1px #000;
+  -moz-box-shadow: inset 0 0 15px 1px #000;
+  box-shadow: inset 0 0 15px 1px #000;
+}
+
+.highlight {
+  color: #a8a7a7;
+  font-weight: bold;
+}
+
+.highlight-everything-active,
+a.highlight-everything:hover {
+  color: #000;
+  background-color: #FFF;
+  
+  /* Force it :\ */
+  -moz-box-shadow: inset 0 0 15px 1px #000;
+  -webkit-box-shadow: inset 0 0 15px 1px #000;
+  box-shadow: inset 0 0 15px 1px #000;
+}
+
+.highlight-ruby {
+  color: #981a21;
+  font-weight: bold;
+}
+
+.highlight-ruby-active {
+  color: #FFF;
+  background-color: #981a21;
+}
+
+.highlight-python {
+  color: #91cb46;
+  font-weight: bold;
+}
+
+.highlight-python-active {
+  color: #FFF;
+  background-color: #91cb46;
+}
+
+.highlight-javascript {
+  color: #4082ae;
+  font-weight: bold;
+}
+
+.highlight-javascript-active {
+  color: #FFF;
+  background-color: #4082ae;
+}
+
+.highlight-node {
+  color: #b9c949;
+  font-weight: bold;
+}
+
+.highlight-node-active {
+  color: #FFF;
+  background-color: #b9c949;
+}
