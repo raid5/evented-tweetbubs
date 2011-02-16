@@ -6,9 +6,9 @@ var trimAt = 100;
 var trimTo = 20;
 
 // Check for console
-var console = window.console;
-if (!console || !console.log || !console.error) {
-  console = {log: function(){ }, error: function(){ }};
+if (!window.console) {
+    window.console = {};
+    window.console.log = function(){};
 }
 
 $(document).ready(function() {
